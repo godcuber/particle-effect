@@ -1,0 +1,406 @@
+body {
+	background: linear-gradient(to right,blue, yellow);
+	
+}
+
+
+.box {
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	
+	
+
+	animation-name: circle;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	
+}
+@keyframes circle {
+	0% {
+		background-color: white;
+		border-radius: 0 0 0 0;
+		left: 0;
+		top: 0;
+	}
+	15% {
+		background-color: green;
+		border-radius: 50% 0 0 0;
+		left:400px;
+		top: 400px;
+	}
+	30% {
+		background-color: red;
+		border-radius: 0% 50% 0 0;
+		left: 800px;
+		top:  0px;
+	}
+	45% {
+		background-color: blue;
+		border-radius: 50% 0% 50% 0;
+		left: 1200px;
+		top: 400px;
+	}
+	60% {
+		background-color: yellow;
+		border-radius: 50% 0% 0% 50%;
+		left: 800px;
+		top: 0px;
+	}
+	
+	75% {
+		background-color: purple;
+		border-radius: 50% 50% 0 0;
+		left: 400px;
+		top: 400px;
+	}
+	
+	100% {
+		background-color: white;
+		border-radius: 50% 50% 50% 50%;
+		left: 0px;
+		top:0px;
+	}
+}
+.box2 {
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	text-align: center;
+	line-height: 300px;
+	
+
+	animation-name: orange;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	
+}
+@keyframes orange {
+	0% {
+		background-color: white;
+		border-radius: 0 0 0 0;
+		left: 0;
+		top: 0;
+	}
+	15% {
+		background-color: green;
+		border-radius: 50% 0 0 0;
+		left:200px;
+		top: 200px;
+	}
+	30% {
+		background-color: red;
+		border-radius: 0% 50% 50% 0;
+		left: 400px;
+		top:  0px;
+	}
+	45% {
+		background-color: blue;
+		border-radius: 50% 0% 50% 0;
+		left: 600px;
+		top: 200px;
+	}
+	60% {
+		background-color: yellow;
+		border-radius: 50% 0% 0% 50%;
+		left: 400px;
+		top: 0px;
+	}
+	
+	75% {
+		background-color: purple;
+		border-radius: 50% 50% 50% 0;
+		left: 200px;
+		top: 200px;
+	}
+	90% {
+		background-color: cyan;
+		border-radius: 50% 50% 0 50%;
+		left:0px;
+		top: 0px;
+	}
+	100% {
+		background-color: white;
+		border-radius: 50% 50% 50% 50%;
+		left: 0px;
+		top:0px;
+	}
+}
+
+
+.box1 {
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	text-align: center;
+	line-height: 300px;
+	
+
+	animation-name: square;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	
+}
+@keyframes square {
+	0% {
+		background-color: white;
+		border-radius: 0 0 0 0;
+		left: 0;
+		top: 0;
+	}
+	15% {
+		background-color: green;
+		border-radius: 50% 0 0 0;
+		left:300px;
+		top: 300px;
+	}
+	30% {
+		background-color: red;
+		border-radius: 0% 50% 0 0;
+		left: 600px;
+		top:  0px;
+	}
+	45% {
+		background-color: blue;
+		border-radius: 0 0% 50% 0;
+		left: 900px;
+		top: 300px;
+	}
+	60% {
+		background-color: yellow;
+		border-radius: 50% 0% 0% 50%;
+		left: 600px;
+		top: 0px;
+	}
+	
+	75% {
+		background-color: purple;
+		border-radius: 50% 50% 50% 0;
+		left: 300px;
+		top: 300px;
+	}
+	90% {
+		background-color: cyan;
+		border-radius: 50% 50% 0 50%;
+		left:0px;
+		top: 0px;
+	}
+	100% {
+		background-color: white;
+		border-radius: 50% 50% 50% 50%;
+		left: 0px;
+		top:0px;
+	}
+}
+
+.box3 {
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	text-align: center;
+	line-height: 300px;
+	
+
+	animation-name: triangle;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	
+}
+@keyframes triangle {
+	0% {
+		background-color: white;
+		border-radius: 0 0 0 0;
+		left: 0;
+		top: 0;
+	}
+	15% {
+		background-color: green;
+		border-radius: 50% 0 0 0;
+		left:250px;
+		top: 250px;
+	}
+	30% {
+		background-color: red;
+		border-radius: 0% 50% 0 0;
+		left: 500px;
+		top:  0px;
+	}
+	45% {
+		background-color: blue;
+		border-radius: 0 0% 50% 50%;
+		left: 750px;
+		top: 250px;
+	}
+	60% {
+		background-color: yellow;
+		border-radius: 50% 0% 0% 50%;
+		left: 500px;
+		top: 0px;
+	}
+	
+	75% {
+		background-color: purple;
+		border-radius: 50% 50% 50% 50%;
+		left: 250px;
+		top: 250px;
+	}
+	90% {
+		background-color: cyan;
+		border-radius: 50% 50% 0 50%;
+		left:0px;
+		top: 0px;
+	}
+	100% {
+		background-color: white;
+		border-radius: 50% 50% 50% 50%;
+		left: 0px;
+		top:0px;
+	}
+}
+.box4 {
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	text-align: center;
+	line-height: 300px;
+	
+
+	animation-name: rectangle;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	
+}
+@keyframes rectangle {
+	0% {
+		background-color: white;
+		border-radius: 0 0 0 0;
+		left: 0;
+		top: 0;
+	}
+	15% {
+		background-color: green;
+		border-radius: 50% 0 0 0;
+		left:400px;
+		top: 400px;
+	}
+	30% {
+		background-color: red;
+		border-radius: 0% 50% 0 0;
+		left: 800px;
+		top:  0px;
+	}
+	45% {
+		background-color: blue;
+		border-radius: 0 0% 50% 0;
+		left: 300;
+		top: 400px;
+	}
+	60% {
+		background-color: yellow;
+		border-radius: 50% 0% 0% 50%;
+		left: 800px;
+		top: 0px;
+	}
+	
+	75% {
+		background-color: purple;
+		border-radius: 50% 50% 50% 0;
+		left: 600px;
+		top: 400px;
+	}
+	90% {
+		background-color: cyan;
+		border-radius: 50% 50% 0 50%;
+		left:0px;
+		top: 0px;
+	}
+	100% {
+		background-color: white;
+		border-radius: 50% 50% 50% 50%;
+		left: 0px;
+		top:0px;
+	}
+}
+
+.box5 {
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	text-align: center;
+	line-height: 300px;
+	
+
+	animation-name: rhombus;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	
+}
+@keyframes rhombus {
+	0% {
+		background-color: white;
+		border-radius: 0 0 0 0;
+		left: 0;
+		top: 0;
+	}
+	15% {
+		background-color: green;
+		border-radius: 50% 0 0 0;
+		left:450px;
+		top: 450px;
+	}
+	30% {
+		background-color: red;
+		border-radius: 0% 50% 0 0;
+		left: 800px;
+		top:  0px;
+	}
+	45% {
+		background-color: blue;
+		border-radius: 0 0% 50% 0;
+		left: 130px;
+		top: 450px;
+	}
+	60% {
+		background-color: yellow;
+		border-radius: 50% 0% 0% 50%;
+		left: 800px;
+		top: 0px;
+	}
+	
+	75% {
+		background-color: purple;
+		border-radius: 50% 50% 50% 0;
+		left: 450px;
+		top: 450px;
+	}
+	90% {
+		background-color: cyan;
+		border-radius: 50% 50% 0 50%;
+		left:0px;
+		top: 0px;
+	}
+	100% {
+		background-color: white;
+		border-radius: 50% 50% 50% 50%;
+		left: 0px;
+		top:0px;
+	}
+}
